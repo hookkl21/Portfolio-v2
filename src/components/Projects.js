@@ -2,7 +2,6 @@ import React from "react";
 import MelloBlog from "../assets/melloyelloblog.PNG";
 import MelloShop from "../assets/melloyelloshop.PNG";
 import MelloCrypto from "../assets/melloyellocrypto.PNG";
-import GitSearch from "../assets/github-search.PNG";
 import mPort from "../assets/mport.PNG";
 
 function Projects() {

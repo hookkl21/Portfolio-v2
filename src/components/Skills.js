@@ -7,9 +7,7 @@ import SASS from "../assets/sass-logo.png";
 import Git from "../assets/git-logo.png";
 import REACT from "../assets/react.png";
 import Node from "../assets/node.png";
-import GitBash from "../assets/gitbash-logo.png";
 import TailWind from "../assets/tailwind.png";
-import FireBase from "../assets/firebase.png";
 import RESTAPI from "../assets/rest-logo.png";
 
 function Skills() {
