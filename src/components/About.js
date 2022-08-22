@@ -3,7 +3,10 @@ import profile from "../assets/profile.jpg";
 
 function About() {
   return (
-    <div name="about" className="w-full h-screen bg-[#9898B1] text-[#141417]">
+    <div
+      name="about"
+      className="w-full md:h-screen bg-[#9898B1] text-[#141417]"
+    >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1200px] w-full grid grid-cols-2 gap-6">
           <div className="sm:text-right pb-8 pl4 mx-6">

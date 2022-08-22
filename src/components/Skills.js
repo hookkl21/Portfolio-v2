@@ -14,7 +14,7 @@ function Skills() {
   return (
     <div
       name="skills"
-      className="  w-full h-screen bg-[#19191E] text-indigo-600"
+      className="  w-full md:h-screen bg-[#19191E] text-indigo-600"
     >
       {/* container */}
       <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">

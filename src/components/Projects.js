@@ -24,7 +24,7 @@ function Projects() {
               <img
                 src={MelloCrypto}
                 alt="Crypto"
-                className="w-[85%] md:w-[60%] m-auto rounded-lg"
+                className="w-[85%] md:w-[60%] m-auto rounded-lg hover:scale-110 duration-500"
               />
             </div>
             <div className="m-4 md:m-2">
@@ -61,7 +61,7 @@ function Projects() {
               <img
                 src={MelloShop}
                 alt="Crypto"
-                className="w-[85%] md:w-[60%] m-auto rounded-lg"
+                className="w-[85%] md:w-[60%] m-auto rounded-lg hover:scale-110 duration-500"
               />
             </div>
             <div className="m-4 md:m-2">
@@ -95,7 +95,7 @@ function Projects() {
               <img
                 src={MelloBlog}
                 alt="Crypto"
-                className="w-[85%] m-auto rounded-lg"
+                className="w-[85%] m-auto rounded-lg hover:scale-110 duration-500"
               />
             </div>
             <div className="m-4 md:m-2">
@@ -118,7 +118,7 @@ function Projects() {
                   </a>
                 </button>
                 <div className="flex text-center items-center flex-wrap">
-                  <p className="inline mx-1">React</p>
+                  <p className="inline mx-1">React/SASS</p>
                   <p className="inline mx-1">Node</p>
                   <p className="inline mx-1">Express</p>
                   <p className="inline mx-1">MongoDB</p>
@@ -127,12 +127,12 @@ function Projects() {
             </div>
           </div>
           {/* project 4 */}
-          <div className="bg-indigo-600 flex flex-col h-[100%] rounded-xl">
+          <div className="bg-indigo-600 flex flex-col h-[100%] rounded-xl ">
             <div className="py-4">
               <img
                 src={mPort}
                 alt="Crypto"
-                className="w-[85%] md:w-[65%] m-auto rounded-lg"
+                className="w-[85%] md:w-[65%] m-auto rounded-lg hover:scale-110 duration-500"
               />
             </div>
             <div className="m-4 md:m-2">
@@ -152,9 +152,9 @@ function Projects() {
                   <a href="https://github.com/hookkl21/github-user">Github</a>
                 </button>
                 <div className="flex text-center items-center flex-wrap">
-                  <p className="inline mx-1">React</p>
-                  <p className="inline mx-1">Auth0</p>
-                  <p className="inline mx-1">Fusion Charts</p>
+                  <p className="inline mx-1">HTML</p>
+                  <p className="inline mx-1">CSS</p>
+                  <p className="inline mx-1">SASS</p>
                 </div>
               </section>
             </div>
