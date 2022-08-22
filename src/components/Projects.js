@@ -6,7 +6,11 @@ import mPort from "../assets/mport.PNG";
 
 function Projects() {
   return (
-    <div name="projects" className="bg-[#9898B1] w-full text-[#141417]">
+    <div
+      name="projects"
+      id="projects"
+      className="bg-[#9898B1] w-full text-[#141417]"
+    >
       {/* container */}
       <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         {/* title */}

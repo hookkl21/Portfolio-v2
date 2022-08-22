@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Typewriter from "typewriter-effect";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
@@ -31,7 +32,15 @@ function Home() {
         </p>
         <div>
           <button className="text-[#cacaeb] bg-indigo-700 py-3 px-6 my-2 flex items-center rounded-md border-2 hover:bg-[#cacaeb] hover:text-indigo-700 duration-500 hover:border-indigo-600 hover:shadow-indigo-500/40">
-            View Work <HiArrowNarrowRight className="ml-2" />
+            <Link
+              to="projects"
+              smooth={true}
+              offset={50}
+              duration={500}
+              className="flex items-center"
+            >
+              View Work <HiArrowNarrowRight className="ml-2" />
+            </Link>
           </button>
         </div>
       </div>

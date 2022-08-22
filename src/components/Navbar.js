@@ -13,11 +13,14 @@ function Navbar() {
   return (
     <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-gradient-to-r from-slate-500 to-indigo-600 text-[#19191E] shadow-lg shadow-indigo-500/20">
       <div>
-        <img
-          src={logo}
-          alt="Masaki Hook"
-          style={{ width: "90px", marginBottom: "1rem" }}
-        />
+        <Link to="home" smooth={true} offset={50} duration={500}>
+          <img
+            src={logo}
+            alt="Masaki Hook"
+            style={{ width: "90px", marginBottom: "1rem" }}
+            className="cursor-pointer hover:scale-110 duration-500"
+          />
+        </Link>
       </div>
       {/* menu */}
       <div className="hidden md:flex">
