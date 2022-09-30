@@ -1,6 +1,6 @@
 import React from "react";
 import MelloBlog from "../assets/melloyelloblog.PNG";
-import MelloShop from "../assets/melloyelloshop.PNG";
+import MelloShop from "../assets/melloyello-chat.PNG";
 import MelloCrypto from "../assets/melloyellocrypto.PNG";
 import mPort from "../assets/mport.PNG";
 
@@ -70,13 +70,14 @@ function Projects() {
             </div>
             <div className="m-4 md:m-2">
               <h3 className="text-2xl mx-4 py-2 border-b-2 inline border-[#cacaeb]">
-                MelloYello Shop
+                MelloYello Chat
               </h3>
               <article className="text-xl px-4 py-4">
-                Full e-commerce furniture website. This site is more focused on
-                front-end part of the side, so the website uses third party
-                platform called Auth0 to keep authentication of user login/out
-                and checkout process.
+                A very simple Real Time Chat app. User can specify their name
+                and enter the room. As long as the user specify same room name.
+                Users can now chat in real time. Utilize useContext hooks for
+                better state management, learned connection between frontend to
+                backend.
               </article>
               <section className="mb-4 flex">
                 <button className="m-2 p-2 text-xl  border-2 border-[#cacaeb] rounded-lg hover:bg-[#cacaeb] hover:text-indigo-700 duration-500 hover:border-[#141417]">
@@ -87,8 +88,9 @@ function Projects() {
                 </button>
                 <div className="flex text-center justify-around items-center flex-wrap">
                   <p className="inline mx-1">React</p>
-                  <p className="inline mx-1">Auth0</p>
-                  <p className="inline mx-1">Modal</p>
+                  <p className="inline mx-1">Node/Express</p>
+                  <p className="inline mx-1">Socket.io</p>
+                  <p className="inline mx-1">SASS</p>
                 </div>
               </section>
             </div>
