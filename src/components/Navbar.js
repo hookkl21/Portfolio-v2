@@ -157,7 +157,7 @@ function Navbar() {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-blue-300 to-indigo-600 rounded-md my-2">
             <a
-              href="https://drive.google.com/file/d/1cbIs3mDxnau-Slv6a6vpVsoEpMnZwtOC/view?usp=sharing"
+              href="https://drive.google.com/file/d/1CIgwp3PivH14NB5Z_idjiYjLQE-ItbUJ/view?usp=sharing"
               className="text-[#3C3C6B] flex justify-between w-full items-center"
             >
               Resume <BsFillPersonLinesFill size={30} />
