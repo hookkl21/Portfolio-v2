@@ -81,10 +81,12 @@ function Projects() {
               </article>
               <section className="mb-4 flex">
                 <button className="m-2 p-2 text-xl  border-2 border-[#cacaeb] rounded-lg hover:bg-[#cacaeb] hover:text-indigo-700 duration-500 hover:border-[#141417]">
-                  <a href="https://melloyelloshop.netlify.app/">Deploy</a>
+                  <a href="https://mello-yello-chat.netlify.app/">Deploy</a>
                 </button>
                 <button className="m-2 p-2 text-xl  border-2 border-[#cacaeb] rounded-lg hover:bg-[#cacaeb] hover:text-indigo-700 duration-500 hover:border-[#141417]">
-                  <a href="https://github.com/hookkl21/e-commerce">Github</a>
+                  <a href="https://github.com/hookkl21/melloyello-chat">
+                    Github
+                  </a>
                 </button>
                 <div className="flex text-center justify-around items-center flex-wrap">
                   <p className="inline mx-1">React</p>
