@@ -1,5 +1,6 @@
 import React from "react";
 import MelloBlog from "../assets/melloyelloblog.PNG";
+import MelloEmail from "../assets/melloyello-mail.PNG";
 import MelloShop from "../assets/melloyello-chat.PNG";
 import MelloCrypto from "../assets/melloyellocrypto.PNG";
 import mPort from "../assets/mport.PNG";
@@ -100,36 +101,37 @@ function Projects() {
           {/* project 3 */}
           <div className="bg-indigo-600 flex flex-col h-[100%] rounded-xl">
             <div className="py-4">
-              <img
-                src={MelloBlog}
-                alt="Crypto"
-                className="w-[85%] m-auto rounded-lg hover:scale-110 duration-500"
-              />
+              <a href="https://mello-yello-mail.netlify.app/">
+                <img
+                  src={MelloEmail}
+                  alt="Crypto"
+                  className="w-[60%] m-auto rounded-lg hover:scale-110 duration-500"
+                />
+              </a>
             </div>
             <div className="m-4 md:m-2">
               <h3 className="text-2xl mx-4 py-2 border-b-2 inline border-[#cacaeb]">
-                MelloYello Blog
+                Responsive MelloYello Email
               </h3>
               <article className="text-xl px-4 py-4">
-                This is the full stack blog website, user can register their
-                account, post, view and write the blog post.This is more focused
-                on the basic functionality of connecting between front-end and
-                back-end to be full stack website.
+                This is the Fully responsive HTML Email Templates that I have
+                created from scratch. Using Tables instead of modern div
+                methologies for safe compatibility with every email platform.
               </article>
               <section className="mb-4 flex">
                 <button className="m-2 p-2 text-xl  border-2 border-[#cacaeb] rounded-lg hover:bg-[#cacaeb] hover:text-indigo-700 duration-500 hover:border-[#141417]">
-                  <a href="https://mello-yello-blog.herokuapp.com/">Deploy</a>
+                  <a href="https://mello-yello-mail.netlify.app/">Deploy</a>
                 </button>
                 <button className="m-2 p-2 text-xl  border-2 border-[#cacaeb] rounded-lg hover:bg-[#cacaeb] hover:text-indigo-700 duration-500 hover:border-[#141417]">
-                  <a href="https://github.com/hookkl21/melloyelloblog">
+                  <a href="https://github.com/hookkl21/melloyello-email">
                     Github
                   </a>
                 </button>
                 <div className="flex text-center items-center flex-wrap">
-                  <p className="inline mx-1">React/SASS</p>
-                  <p className="inline mx-1">Node</p>
-                  <p className="inline mx-1">Express</p>
-                  <p className="inline mx-1">MongoDB</p>
+                  <p className="inline mx-1">HTML/CSS</p>
+                  <p className="inline mx-1">Canva</p>
+                  <p className="inline mx-1">Photoshop</p>
+                  <p className="inline mx-1">Litmus Putsmail</p>
                 </div>
               </section>
             </div>
