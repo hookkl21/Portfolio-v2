@@ -17,7 +17,7 @@ function Home() {
           <div className="typeWriter">
             <Typewriter
               options={{
-                strings: ["Front-end", "Web"],
+                strings: ["Front-end", "Web", "HTML Email"],
                 autoStart: true,
                 loop: true,
               }}
