@@ -26,9 +26,9 @@ function Home() {
           Developer
         </h2>
         <p className="text-[#cacaeb] py-4 max-w-[850px] ">
-          I specialize in Front-End/Web Development. Passionate about improving
-          my skills and bringing out smiles and magic to the people through
-          technology.
+          I specialize in HTML Email, Front-End, Web Development. Passionate
+          about improving my skills and bringing out smiles and magic to the
+          people through technology.
         </p>
         <div>
           <button className="text-[#cacaeb] bg-indigo-700 py-3 px-6 my-2 flex items-center rounded-md border-2 hover:bg-[#cacaeb] hover:text-indigo-700 duration-500 hover:border-indigo-600 hover:shadow-indigo-500/40">
