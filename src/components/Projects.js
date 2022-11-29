@@ -1,5 +1,4 @@
 import React from "react";
-import MelloBlog from "../assets/melloyelloblog.PNG";
 import MelloEmail from "../assets/melloyello-mail.PNG";
 import MelloShop from "../assets/melloyello-chat.PNG";
 import MelloCrypto from "../assets/melloyellocrypto.PNG";
